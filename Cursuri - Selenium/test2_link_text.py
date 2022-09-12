@@ -9,12 +9,12 @@ chrome = webdriver.Chrome(service=s)
 
 chrome.maximize_window()
 
-# # deschidem o pagina
-# chrome.get('https://formy-project.herokuapp.com')
-#
-#
-# # selectors by link
-# chrome.find_element(By.LINK_TEXT, 'Autocomplete').click()
+# deschidem o pagina
+chrome.get('https://formy-project.herokuapp.com')
+
+
+# selectors by link
+chrome.find_element(By.LINK_TEXT, 'Autocomplete').click()
 
 chrome.get('https://formy-project.herokuapp.com')
 
